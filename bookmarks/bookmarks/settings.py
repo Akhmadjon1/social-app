@@ -140,6 +140,7 @@ AUTHENTICATION_BACKENDS = [
     'account.authentication.EmailAuthBackend',
     'social_core.backends.facebook.FacebookOAuth2',
     'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.google.GoogleOAuth2',
 ]
 
 SOCIAL_AUTH_FACEBOOK_KEY = '1988127708195937'
@@ -148,3 +149,6 @@ SOCIAL_AUTH_FACEBOOK_SCOPE = ['ahmadjonzuhriddinov84@gmail.com']
 
 SOCIAL_AUTH_TWITTER_KEY = 'RXRJBy9vJFQeF4QCTfKD78VRA'
 SOCIAL_AUTH_TWITTER_SECRET = 'D8pRMmvRKbb7HU85zpWhT1Kxh5wsYzbXY4IeBMz8g2ZQqTcChn'
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '780981298992-3auqkdtc4brg98a3n3kg34ohh2psg3i7.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
